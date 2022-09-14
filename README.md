@@ -80,3 +80,10 @@ There are many ways of approaching getting rid of the 'Or' cells but I chose to 
 9. Lastly Question 5 asks us what product sold the most and to postulate as to why? To answer the first part is fairly straight forward. All we have to do is group the data frame by Product and compare it with the sum of values, which we can do after we export it to a CSV and visualize in Tableau.
 
 ![](https://github.com/travis-barairo/Case-Study-Sales-Data-Analysis/blob/main/Images/Analysis7.JPG)
+
+So far we've been able to uncover and answer the five questions posed for us. Now all there's left to do is to put it into visual format so that it is easier for us to understand the insights that we've discovered.
+
+## Data Visualization
+
+### Question 1: What was the best month for sales, and how much was sold that month?
+![](https://github.com/travis-barairo/Case-Study-Sales-Data-Analysis/blob/main/Images/Vis1.JPG)
