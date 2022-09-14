@@ -33,4 +33,17 @@ Looking at the structure of the data we can see that many of the columns are str
 2. After merging all the files into one dataframe, we can begin the cleaning process by first checking for any Null values, and then removing the null values if there are any by using the pandas dropna method. We specify the parameter 'all' for how to remove all instances of any null values there may be in the dataframe. Removing these nulls is important so that we can create calculated columns without any problems.
 ![](https://github.com/travis-barairo/Case-Study-Sales-Data-Analysis/blob/main/Images/Clean2.JPG)
 
-3. Once all the Nan values have been cleaned we can then move onto the data preprocessing portions whereby we set up the columns we will need in order to do the analysis and visualization later on. While this step is completely a preference I prefer to have all my variables ready before starting analysis. To start off, we simply create a new column in the dataframe called 'Month' whereby we take the first 2 indexes in the 'Order Date' column to get the month's number. Furthermore in this step while I was looking through the data, I noticed that there was a mistake that the scaping tool had made in that there were rows of data tha had 'Or" inside the cell. Removing these values would be necessary in order to be able to calulate revenue and perform other numerical transformations without running into any issues. There are many ways 
+3. Once all the Nan values have been cleaned we can then move onto the data preprocessing portions whereby we set up the columns we will need in order to do the analysis and visualization later on. While this step is completely a preference I prefer to have all my variables ready before starting analysis. To start off, we simply create a new column in the dataframe called 'Month' whereby we take the first 2 indexes in the 'Order Date' column to get the month's number. Furthermore in this step while I was looking through the data, I noticed that there was a mistake that the scaping tool had made in that there were rows of data tha had 'Or" inside the cell. Removing these values would be necessary in order to be able to calulate revenue and perform other numerical transformations without running into any issues.
+![](https://github.com/travis-barairo/Case-Study-Sales-Data-Analysis/blob/main/Images/Clean3.JPG)
+There are many ways of approaching getting rid of the 'Or' cells but I chose to just create a filter that includes all the data that != to 'Or' and recreated a dataframe that doesn't have the value inside of it.
+
+4. Once we've removed the Or cells, we are now able to convert our Mont, Quantity Ordered, and Price Each columns to numeric values from string objects. To do this, we call upon the pandas method to_numeric.
+![](https://github.com/travis-barairo/Case-Study-Sales-Data-Analysis/blob/main/Images/Clean4.JPG)
+
+5. Once the columns are converted to an intiger or float value, we are able to then create a calculated column for Sales revenue by multiplying the price each column and quantity ordered column together.
+![](https://github.com/travis-barairo/Case-Study-Sales-Data-Analysis/blob/main/Images/Clean5.JPG)
+
+6. Next, we needed to split the Purchase address column into a more useable format. To do this we used the str.split method to split the column using a delimiter of ',' and then putting the out put into its own column by defining a dictionary and having expand = True written.
+![](https://github.com/travis-barairo/Case-Study-Sales-Data-Analysis/blob/main/Images/Clean6.JPG)
+
+7. 
