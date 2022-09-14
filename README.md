@@ -53,4 +53,5 @@ There are many ways of approaching getting rid of the 'Or' cells but I chose to 
 ![](https://github.com/travis-barairo/Case-Study-Sales-Data-Analysis/blob/main/Images/Clean8.JPG)
 
 9. Lastly, we need to access the time products were purchased, and so to do this we simply use the str method to specify what part of the string to pull into a new column for purchase time.
-![](https://github.com/travis-barairo/Case-Study-Sales-Data-Analysis/blob/main/Images/Clean9.JPG)
+10. 
+11. ![](https://github.com/travis-barairo/Case-Study-Sales-Data-Analysis/blob/main/Images/Clean9.JPG)
