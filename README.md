@@ -74,7 +74,9 @@ There are many ways of approaching getting rid of the 'Or' cells but I chose to 
 7. After creating the new data frame with the grouped products, we can then use the counter method inside of the collections library and combinations from the itertools library to create a for loop that will, for every row in Products Grouped, split the row on the comma, and then update the counter by counting the split combinations that resulted from the row_list by pairs. Once this for loop is done, we can then use the count function and pass in the 10 most_common combinations to see the top 10 items purchased together.
 ![](https://github.com/travis-barairo/Case-Study-Sales-Data-Analysis/blob/main/Images/Analysis5.JPG)
 8. Finally after much deliberation, we can then turn the count.most_common(10) into a DataFrame to then export as a CSV using the to_csv method.
-   ![](https://github.com/travis-barairo/Case-Study-Sales-Data-Analysis/blob/main/Images/Analysis6.JPG)
+
+![](https://github.com/travis-barairo/Case-Study-Sales-Data-Analysis/blob/main/Images/Analysis6.JPG)
 
 9. Lastly Question 5 asks us what product sold the most and to postulate as to why? To answer the first part is fairly straight forward. All we have to do is group the data frame by Product and compare it with the sum of values, which we can do after we export it to a CSV and visualize in Tableau.
-   ![](https://github.com/travis-barairo/Case-Study-Sales-Data-Analysis/blob/main/Images/Analysis7.JPG)
+
+![](https://github.com/travis-barairo/Case-Study-Sales-Data-Analysis/blob/main/Images/Analysis7.JPG)
