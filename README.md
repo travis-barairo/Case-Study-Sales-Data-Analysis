@@ -55,3 +55,13 @@ There are many ways of approaching getting rid of the 'Or' cells but I chose to 
 9. Lastly, we need to access the time products were purchased, and so to do this we simply use the str method to specify what part of the string to pull into a new column for purchase time.
 
 ![](https://github.com/travis-barairo/Case-Study-Sales-Data-Analysis/blob/main/Images/Clean9.JPG)
+
+##### Documentation of Analyzing Cleaned Data
+
+1. To Answer Question 1, what was the best month for sales? How much was earned in that month? We simply just had to group the dataframe by month and take the sum of the sales revenue. After running this and printing our new variable, we find that December was the highest sales month at $4,613,443.34. Then we take the completed table and export it into a csv to use for visualization later.
+![](https://github.com/travis-barairo/Case-Study-Sales-Data-Analysis/blob/main/Images/Analysis1.JPG)
+
+2. Similarly, the next question, Question 2, asks what city sold the most product. In order to find this we can use a similar method as the first question. First we create a new column called City State which takes into account the Portland Oregon versus Portland Maine hurdle I mentioned earlier. Then after creating this column, we will simply group the data frame by the City State and take the sum of all values, including products sold. After printing the answer you'll be able to see that San Francisco CA sold the most product. Finally we exported it to a csv file to use for further visualization later.
+![](https://github.com/travis-barairo/Case-Study-Sales-Data-Analysis/blob/main/Images/Analysis2.JPG)
+
+3. 
