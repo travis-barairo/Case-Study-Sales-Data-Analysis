@@ -46,4 +46,11 @@ There are many ways of approaching getting rid of the 'Or' cells but I chose to 
 6. Next, we needed to split the Purchase address column into a more useable format. To do this we used the str.split method to split the column using a delimiter of ',' and then putting the out put into its own column by defining a dictionary and having expand = True written.
 ![](https://github.com/travis-barairo/Case-Study-Sales-Data-Analysis/blob/main/Images/Clean6.JPG)
 
-7. 
+7. Now that we have the three columns for street, city, and state and zip, we must make sure that there aren't any extra spaces at the beginning or the tail of the string so that when we use the split funciton later, we will have the right character index. In order to do this we simply use the str.strip method to get rid of any unwanted spaces.
+![](https://github.com/travis-barairo/Case-Study-Sales-Data-Analysis/blob/main/Images/Clean7.JPG)
+
+8. For question 2 they ask what city sold the most product. Thinking ahead, when we analyze the products sold by city how are sure that the cities listed aren't unique values. Take for example, Portland Oregon, and Portland Maine. When we do the analysis later we must be sure to account for citis in different states that have the same names. To account for this, we need to access the state portion of the State and zip column only, and drop any unnecessary columns in the process.
+![](https://github.com/travis-barairo/Case-Study-Sales-Data-Analysis/blob/main/Images/Clean8.JPG)
+
+9. Lastly, we need to access the time products were purchased, and so to do this we simply use the str method to specify what part of the string to pull into a new column for purchase time.
+![](https://github.com/travis-barairo/Case-Study-Sales-Data-Analysis/blob/main/Images/Clean9.JPG)
