@@ -27,4 +27,5 @@ The data inside of the csv files are structured as follows:
 Looking at the structure of the data we can see that many of the columns are strings, this will make it difficult to manipulate when we go answer the questions posed by the business. Firstly, we need to check and clean every column for Null values or other blank cells that may disturb out analysis. Afterwards we need to convert the data type of the applicable columns to numbers so that we can manipulate them later in the analysis. Once all the cleaning is done then we can proceed to the analysis. Once the analysis is complete I plan to export the answers to the business questions to separate csv files to make loading the data into Tableau.
 
 ##### Documentation of Cleaning Data
-1. 
+1. To start the cleaning off, we have to first merge the data together from 12 files down to one master file, and once we have the data merged into one CSV file we can then name a dataframe using the data stored inside the aggregated file as the source.
+![](https://github.com/travis-barairo/Case-Study-Sales-Data-Analysis/blob/main/Images/Clean1.JPG)
