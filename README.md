@@ -64,4 +64,7 @@ There are many ways of approaching getting rid of the 'Or' cells but I chose to 
 2. Similarly, the next question, Question 2, asks what city sold the most product. In order to find this we can use a similar method as the first question. First we create a new column called City State which takes into account the Portland Oregon versus Portland Maine hurdle I mentioned earlier. Then after creating this column, we will simply group the data frame by the City State and take the sum of all values, including products sold. After printing the answer you'll be able to see that San Francisco CA sold the most product. Finally we exported it to a csv file to use for further visualization later.
 ![](https://github.com/travis-barairo/Case-Study-Sales-Data-Analysis/blob/main/Images/Analysis2.JPG)
 
-3. 
+3. Moving on to Question 3, What time should we display advertisements to maximize the likelyhood of customer's buying the product, we can simply create a new column named Purchase hour, and pass in the str method along with the index of 0:2 to take the hour of the purchase. After this we can then group the dataframe by the Purchase Hour and compare it to the sum of the Sales Revenue to get that 7 PM or 19 UTC was the highest amount of sales. We then created a csv to help load into Tableau later on.
+![](https://github.com/travis-barairo/Case-Study-Sales-Data-Analysis/blob/main/Images/Analysis3.JPG)
+
+
