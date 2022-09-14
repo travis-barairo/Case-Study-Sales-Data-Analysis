@@ -77,4 +77,4 @@ There are many ways of approaching getting rid of the 'Or' cells but I chose to 
 ![](https://github.com/travis-barairo/Case-Study-Sales-Data-Analysis/blob/main/Images/Analysis6.JPG)
 
 9. Lastly Question 5 asks us what product sold the most and to postulate as to why? To answer the first part is fairly straight forward. All we have to do is group the data frame by Product and compare it with the sum of values, which we can do after we export it to a CSV and visualize in Tableau.
-
+![](https://github.com/travis-barairo/Case-Study-Sales-Data-Analysis/blob/main/Images/Analysis7.JPG)
