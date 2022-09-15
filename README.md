@@ -5,7 +5,7 @@ Sales data analysis for a made up company.
 The data sourced for this repository/data analysis comes from a youtube video for practicing applicable analysis skills. In the description of the youtube video is the zipped file containing the sales data. The data is free use and not from a real company. Click this ![link](https://www.youtube.com/watch?v=eMOA1pPVUc4&t=4464s&ab_channel=KeithGalli) to find the aforementioned Youtube video.
 
 ## Business Question
-The team at Imagine Airy Electronics needs highlevel analysis done on their most trending products. Their goal is to gain insights that could increase the amount of people purchasing their product, and changing pricing based on quantity of product sold. In order to accomplish this task, we've been asked to answer 5 subquestions in order to generate the needed insights for business development.
+The team at Imagine Airy Electronics needs high level analysis done on their most trending products. Their goal is to gain insights that could increase the amount of people purchasing their product, and changing pricing based on quantity of product sold. In order to accomplish this task, we've been asked to answer 5 subquestions in order to generate the needed insights for business development.
 * Sub Question 1: What was the best month for sales?
 * Sub Question 2: What city sold the most product?
 * Sub Question 3: What time should we display advertisements to maximize the likelyhood of customers buying the product?
@@ -117,5 +117,11 @@ In terms of quantity ordered, it makes sense that things such as batteries are s
 
 When looking at the revenue generated however, it makes sense that the more valuable electronic items drive most of the revenue generation, due to their higher price point. Although they make up only 15% of the amount of orders that both battery types combined had, the Macbook pro laptop and the ThinkPad laptop made 98% more revenue than the batteries.
 
-
+## Reccomendations:
+To increase the amount of people purchasing their products, and as well as to grow their business even further, Imagine Airy Electronics should:
+* Start advertising heavily starting in September, this is due to the fact that there is a large spike of sales during the last 3 months of the year, and promoting products before this time will only increase sales greatly.
+* Furthermore, the company should focus on advertising heavily in San Francisco, Los Angeles, New York, and Boston as these four cities make the majority of where their products are being purchased from. Having more advertising in these areas will be more cost effective as we can see from the data that the people in these cities are more willing to buy the product, so a little advertising may push them to buy even more.
+* As for when they should advertise on a daily basis, Imagine Airy should advertise more during the hours 9 am - 1 pm and then again later at night starting at 5 pm - 9 pm. By aiming advertisements to release during these times, Imagine Airy can influence the most amounts of people to purchase their products.
+* Outside of advertising, Imagine Airy can sell bundles for most bought items. These bundles are given for the most sold pairs, and can be at a discounted rate. If these bundles are offered, the amount of purchases will increase drastically due to consumer perception of a lower price, thus driving more revenue for the company. The items the company should bundle together are: the iPhone and Lightning charging cable, the Google Phone and the USB-C charging cable, the iPhone and Wired Headphones, and the Google Phone and Wired Headphones.
+* Terms of pricing 
 
