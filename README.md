@@ -84,6 +84,25 @@ There are many ways of approaching getting rid of the 'Or' cells but I chose to 
 So far we've been able to uncover and answer the five questions posed for us. Now all there's left to do is to put it into visual format so that it is easier for us to understand the insights that we've discovered.
 
 ## Data Visualization
+*Click this [link](https://public.tableau.com/app/profile/travis.miguel.barairo/viz/Project2SalesDataAnalysis/SalesAnalysisDashboard) to view the dashboard and any specific details on Tableau!*
 
 ### Question 1: What was the best month for sales, and how much was sold that month?
 ![](https://github.com/travis-barairo/Case-Study-Sales-Data-Analysis/blob/main/Images/Vis1.JPG)
+Seeing from the graph above, the largest month for sales was in December generating over $4,613,443. This can be attributed to many factors such as Christmas Season being in December. Interestingly as well is that we see a large spike in sales starting in the last quarter of the year, which is unsuprising since this season has events such as Black Friday, Cyber Monday, Christmas, and Thanksgiving that can be a large driver of spending.
+
+### Question 2: What city sold the most product?
+![](https://github.com/travis-barairo/Case-Study-Sales-Data-Analysis/blob/main/Images/Vis2.JPG)
+According to my visualization, we can see that the city in which our company's products sold the most in was San Francisco, California which generated $8,262,204 worth of revenue, a whopping 65% more than the next highest city Los Angeles which is only at $5,452,571.
+
+### Question 3: What time should we display advertisements to maximize the likelyhood of customers buying the product?
+![](https://github.com/travis-barairo/Case-Study-Sales-Data-Analysis/blob/main/Images/Vis3.JPG)
+According to the amount of quantity ordered by hour, we should be advertising our products at 19 UTC or 7 PM. Additionally, in order to increase customer's likelyhood of purchasing our products we should also consider showing advertisements around 12 UTC which will account for both peaks of purchasing activity within a customer's day.
+
+### Question 4: What products are most often sold together?
+The top 10 products that are most sold together are as shows:
+![](https://github.com/travis-barairo/Case-Study-Sales-Data-Analysis/blob/main/Images/Vis4.JPG)
+Although, the top 10 is shown, we can see that the majority of combinations is for customers to purchase a highly branded phone and their respective charging cable. Going down the list we can see the custmers purchasing different sorts of Wireless headphones and wired headphones.
+
+### Question 5: What product sold the most? Why?
+To answer this question, I decided to plot all the available products the company sells and compare their total Sales Revenue with each o
+
