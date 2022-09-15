@@ -104,5 +104,5 @@ The top 10 products that are most sold together are as shows:
 Although, the top 10 is shown, we can see that the majority of combinations is for customers to purchase a highly branded phone and their respective charging cable. Going down the list we can see the custmers purchasing different sorts of Wireless headphones and wired headphones.
 
 ### Question 5: What product sold the most? Why?
-To answer this question, I decided to plot all the available products the company sells and compare their total Sales Revenue with each o
+To answer this question, I decided to plot all the available products the company sells and compare their total Quantity Sold versus the total Revenue Generated. 
 
